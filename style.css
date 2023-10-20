@@ -1,0 +1,259 @@
+/* Normalize css */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* End normalize */
+/* Start header section */
+.header{
+    background-image: url(./images/Music-bgi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 35px;
+}
+.header-box{
+    border-right: 1px solid white;
+    height: 47px;
+}
+.header-icon{
+    border-radius: 90px;
+    border: 1px solid white;
+    width: 47px;
+    height: 47px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 32px;
+}
+.header-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 64px;
+}
+.header-child h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30.80px;
+    letter-spacing: 2.20px;
+}
+.header-child h1 {
+    color: white;
+    font-size: 99.17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 99.17px;
+    width: 500px;
+    margin-right: 60px;
+}
+.header-card{
+    display: flex;
+
+}
+.header-sale{
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.20px;
+    padding-right: 28px;
+}
+.header-price{
+    color: white;
+    font-size: 31px;
+    font-weight: 500;
+    text-decoration: line-through;
+    line-height: 43.40px;
+    padding-left: 28px;
+    padding-top: 5px;
+    opacity: 0.8;
+}
+.btn{
+    color: #FF4948;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.80px;
+    border-radius: 55px;
+    width: 191px;
+    padding: 15px 30px;
+    margin-top: 35px;
+    border: none;
+}
+/* End header section */
+/* Start hero section */
+.hero-h2 {
+    color: #180202;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.20px;
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+.hero-card{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-img {
+    border: 2px solid rgba(125.38, 117.02, 117.02, 0.30);
+    border-radius: 30px;
+    transition: all ease 0.3s;
+}
+.hero-img:hover{
+    transform: scale(1.3);
+}
+.hero-title{
+    margin-top: 100px;
+}
+.hero-subtitle{
+    margin-top: 100px;
+}
+.hero-free {
+    margin-top: 100px;
+}
+.hero-right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.hero-right h2 {
+    color: black;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.20px;
+    width: 390px;
+    text-align: start;
+}
+.hero-right li {
+    padding-top: 20px;
+}
+.hero-right a {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.80px;
+    opacity: 0.7;
+}
+.hero-right li p {
+    width: 292px;
+    border: 1px solid black;
+    opacity: 0.1;
+}
+.hero-end{
+    background-image: url(./images/nota-bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero-last{
+    width: 712px;
+    height: 292px;
+    border: 1px solid #FFF4F4;
+    background-color: #FFF4F4;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+.hero-last h2 {
+    color: #180202;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.20px;
+    margin-top: 54px;
+}
+.hero-last p {
+    color: #180202;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 6px;
+}
+.holder{
+    border-radius: 73px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 36px auto;
+}
+.bttn{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.80px;
+    padding: 15px 30px;
+    background-color: #FF4948;
+    border: none;
+    border-radius: 50px;
+}
+input{
+    outline: none;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 73px;
+    padding: 0 30px;
+}
+input:focus{
+    border: 1px solid #FF4948;
+    color: #FF4948;
+}
+/* End hero section */
+/* Start footer section */
+.footer{
+    background-color: #E86564;
+    background-size: cover;
+    width: 100vw;
+}
+.footer-left{
+    padding: 61px 0;
+}
+.footer-center a {
+    color: white;
+    padding: 0 16px;
+}
+.footer-icon{
+    border-radius: 90px;
+    border: 1px solid white;
+    width: 47px;
+    height: 47px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+/* End footer section */
